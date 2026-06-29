@@ -84,17 +84,18 @@ jobs:
           (function () {
             var base = '/timeless-terminal-site/';
             var prefixes = ['67e1ae71dd64cd85dbd94d4c/','67e1ae71dd64cd85dbd94d5e/','ajax/','custom/','form/','gh/','img/','jquery.counterup/','js/','manus-storage/','news/','npm/','privacy-policy/','split-type@0.3.4/','terms-and-conditions/','gold-accents.css','favicon.ico'];
+            function withoutFirstSlash(value) { return value && value.charAt(0) === '/' ? value.slice(1) : value; }
             function isSitePath(path) { return prefixes.some(function (prefix) { return path.indexOf('/' + prefix) === 0 || path.indexOf(prefix) === 0; }); }
             function fixedUrl(value) {
               if (!value) return value;
               try {
                 var url = new URL(value, window.location.href);
                 if (url.origin === window.location.origin && url.pathname.indexOf(base) !== 0 && isSitePath(url.pathname)) {
-                  return base + url.pathname.replace(/^//, '') + url.search + url.hash;
+                  return base + withoutFirstSlash(url.pathname) + url.search + url.hash;
                 }
               } catch (error) {}
               if (value.indexOf('/') === 0 && value.indexOf(base) !== 0 && isSitePath(value)) {
-                return base + value.replace(/^//, '');
+                return base + withoutFirstSlash(value);
               }
               return value;
             }
@@ -102,7 +103,7 @@ jobs:
               return value.split(',').map(function (part) {
                 var trimmed = part.trim();
                 if (!trimmed) return trimmed;
-                var pieces = trimmed.split(/s+/);
+                var pieces = trimmed.split(/\s+/);
                 pieces[0] = fixedUrl(pieces[0]);
                 return pieces.join(' ');
               }).join(', ');
