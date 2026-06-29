@@ -40,7 +40,6 @@ jobs:
               shutil.rmtree(output)
           shutil.copytree(source, output)
 
-          text_extensions = {".html", ".css", ".js", ".json", ".svg", ".xml", ".txt"}
           site_paths = (
               "67e1ae71dd64cd85dbd94d4c/",
               "67e1ae71dd64cd85dbd94d5e/",
@@ -60,6 +59,7 @@ jobs:
               "gold-accents.css",
               "favicon.ico",
           )
+          text_extensions = {".html", ".css", ".js", ".json", ".svg", ".xml", ".txt"}
           pattern = re.compile(r'(?P<lead>["\'(=:\s,])/(?P<path>(?:' + '|'.join(re.escape(p) for p in site_paths) + r')[^"\'\s),<]*)')
 
           def fix_paths(text):
@@ -78,6 +78,70 @@ jobs:
               updated = fix_paths(original)
               if updated != original:
                   path.write_text(updated, encoding="utf-8")
+
+          runtime_fix = r'''
+          <script>
+          (function () {
+            var base = '/timeless-terminal-site/';
+            var prefixes = ['67e1ae71dd64cd85dbd94d4c/','67e1ae71dd64cd85dbd94d5e/','ajax/','custom/','form/','gh/','img/','jquery.counterup/','js/','manus-storage/','news/','npm/','privacy-policy/','split-type@0.3.4/','terms-and-conditions/','gold-accents.css','favicon.ico'];
+            function isSitePath(path) { return prefixes.some(function (prefix) { return path.indexOf('/' + prefix) === 0 || path.indexOf(prefix) === 0; }); }
+            function fixedUrl(value) {
+              if (!value) return value;
+              try {
+                var url = new URL(value, window.location.href);
+                if (url.origin === window.location.origin && url.pathname.indexOf(base) !== 0 && isSitePath(url.pathname)) {
+                  return base + url.pathname.replace(/^//, '') + url.search + url.hash;
+                }
+              } catch (error) {}
+              if (value.indexOf('/') === 0 && value.indexOf(base) !== 0 && isSitePath(value)) {
+                return base + value.replace(/^//, '');
+              }
+              return value;
+            }
+            function fixSrcset(value) {
+              return value.split(',').map(function (part) {
+                var trimmed = part.trim();
+                if (!trimmed) return trimmed;
+                var pieces = trimmed.split(/s+/);
+                pieces[0] = fixedUrl(pieces[0]);
+                return pieces.join(' ');
+              }).join(', ');
+            }
+            function fixElement(el) {
+              if (!el || el.nodeType !== 1) return;
+              ['src', 'href', 'poster'].forEach(function (attr) {
+                if (!el.hasAttribute(attr)) return;
+                var current = el.getAttribute(attr);
+                var next = fixedUrl(current);
+                if (next !== current) el.setAttribute(attr, next);
+              });
+              if (el.hasAttribute('srcset')) {
+                var srcset = el.getAttribute('srcset');
+                var nextSrcset = fixSrcset(srcset);
+                if (nextSrcset !== srcset) el.setAttribute('srcset', nextSrcset);
+              }
+            }
+            function scan(root) {
+              fixElement(root);
+              if (root && root.querySelectorAll) {
+                root.querySelectorAll('[src], [href], [poster], [srcset]').forEach(fixElement);
+              }
+            }
+            scan(document);
+            new MutationObserver(function (mutations) {
+              mutations.forEach(function (mutation) {
+                if (mutation.type === 'attributes') fixElement(mutation.target);
+                mutation.addedNodes.forEach(scan);
+              });
+            }).observe(document.documentElement, { childList: true, subtree: true, attributes: true, attributeFilter: ['src', 'href', 'poster', 'srcset'] });
+          }());
+          </script>
+          '''
+          index_path = output / "index.html"
+          html = index_path.read_text(encoding="utf-8")
+          if "runtime Pages path fix" not in html:
+              html = html.replace("</body>", "<!-- runtime Pages path fix -->" + runtime_fix + "</body>")
+              index_path.write_text(html, encoding="utf-8")
       - name: Upload site
         uses: actions/upload-pages-artifact@v3
         with:
