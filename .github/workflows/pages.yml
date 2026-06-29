@@ -29,6 +29,7 @@ jobs:
         shell: python
         run: |
           from pathlib import Path
+          import re
           import shutil
 
           source = Path("timeless-terminal-site")
@@ -39,26 +40,44 @@ jobs:
               shutil.rmtree(output)
           shutil.copytree(source, output)
 
-          text_extensions = {".html", ".css", ".js"}
-          replacements = [
-              ('="/', f'="{base}'),
-              ("='/", f"='{base}"),
-              ('url(/', f'url({base}'),
-              (', /', f', {base}'),
-          ]
+          text_extensions = {".html", ".css", ".js", ".json", ".svg", ".xml", ".txt"}
+          site_paths = (
+              "67e1ae71dd64cd85dbd94d4c/",
+              "67e1ae71dd64cd85dbd94d5e/",
+              "ajax/",
+              "custom/",
+              "form/",
+              "gh/",
+              "img/",
+              "jquery.counterup/",
+              "js/",
+              "manus-storage/",
+              "news/",
+              "npm/",
+              "privacy-policy/",
+              "split-type@0.3.4/",
+              "terms-and-conditions/",
+              "gold-accents.css",
+              "favicon.ico",
+          )
+          pattern = re.compile(r'(?P<lead>["\'(=:\s,])/(?P<path>(?:' + '|'.join(re.escape(p) for p in site_paths) + r')[^"\'\s),<]*)')
+
+          def fix_paths(text):
+              text = pattern.sub(lambda m: f"{m.group('lead')}{base}{m.group('path')}", text)
+              while f"{base}timeless-terminal-site/" in text:
+                  text = text.replace(f"{base}timeless-terminal-site/", base)
+              return text
 
           for path in output.rglob("*"):
               if path.suffix.lower() not in text_extensions:
                   continue
               try:
-                  text = path.read_text(encoding="utf-8")
+                  original = path.read_text(encoding="utf-8")
               except UnicodeDecodeError:
                   continue
-              original = text
-              for old, new in replacements:
-                  text = text.replace(old, new)
-              if text != original:
-                  path.write_text(text, encoding="utf-8")
+              updated = fix_paths(original)
+              if updated != original:
+                  path.write_text(updated, encoding="utf-8")
       - name: Upload site
         uses: actions/upload-pages-artifact@v3
         with:
