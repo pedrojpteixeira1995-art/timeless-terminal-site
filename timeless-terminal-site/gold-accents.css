@@ -1,0 +1,60 @@
+/* ============================================================
+   Gold accents override — added on top of the Webflow CSS.
+   Reversible: remove this file's <link> to revert. Tweak --gold.
+   ============================================================ */
+:root{
+  --gold: #C9A84C;            /* champagne gold (primary) */
+  --gold-bright: #E8C77A;     /* highlight for gradients */
+  --gold-deep: #B8860B;       /* shadow for gradients */
+}
+
+/* 1) Big "1,000,000" counter — metallic gold gradient text */
+.prove_cifra.counter{
+  background: linear-gradient(180deg, var(--gold-bright) 0%, var(--gold) 45%, var(--gold-deep) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: var(--gold);            /* fallback */
+}
+
+/* 2) Hero statistics numbers (50k+ / 250k+ / 990k+) */
+.hero_number-wrap{
+  color: var(--gold) !important;
+}
+
+/* 3) "$1,000,000 in trading capital" highlight (cards section) */
+.cards_price, .cards_funding, [class*="cards_"] .text-color-primary{
+  color: var(--gold) !important;
+}
+
+/* 4) Premium plan card (3rd card) — gold border + subtle glow */
+.discover_content > .discover_card:nth-child(3){
+  border: 1px solid var(--gold) !important;
+  box-shadow: 0 0 0 1px rgba(201,162,75,.25), 0 16px 50px -20px rgba(201,162,75,.45) !important;
+  border-radius: 14px;
+}
+/* Premium "Get Started" button -> gold fill */
+.discover_content > .discover_card:nth-child(3) .button.is-card{
+  background-color: var(--gold) !important;
+  border-color: var(--gold) !important;
+  color: #0a0a0a !important;
+}
+.discover_content > .discover_card:nth-child(3) .button.is-card *{
+  color: #0a0a0a !important;
+}
+
+/* 5) Arrow icons (↗) tinted gold */
+.arrow-icon{
+  filter: invert(67%) sepia(48%) saturate(548%) hue-rotate(2deg) brightness(91%) contrast(89%);
+}
+
+/* 6) Link / nav hover -> gold */
+.w-nav-link:hover,
+.button.is-icon:hover{
+  color: var(--gold) !important;
+}
+.button.is-icon:hover .arrow-icon{
+  filter: invert(67%) sepia(48%) saturate(548%) hue-rotate(2deg) brightness(91%) contrast(89%);
+}
+
+/* Keep the primary white CTA (Start Trading / Create Account) WHITE on purpose */

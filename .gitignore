@@ -1,0 +1,20 @@
+# Local backups and discarded assets
+timeless-terminal-site/_codex-backup-*/
+timeless-terminal-site/_removed-alpha-ledger-assets/
+
+# Temporary screenshots / local generated checks
+timeless-terminal-site/tmp-*.png
+*.log
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Dependency/build folders if added later
+node_modules/
+.cache/
+dist/
+build/

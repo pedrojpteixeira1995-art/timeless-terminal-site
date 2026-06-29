@@ -1,0 +1,438 @@
+﻿{
+  "page": "https://timelessterminal.com/",
+  "mirrored_at": "2026-06-18T10:10:53Z",
+  "authorization_context": "User stated full authorization to clone their Timeless Terminal Webflow site (pedrojpteixeira1995@gmail.com), 2026-06-18",
+  "allowed_external_hosts": [
+    "cdn.jsdelivr.net",
+    "cdn.prod.website-files.com",
+    "cdnjs.cloudflare.com",
+    "d3e54v103j8qbb.cloudfront.net",
+    "unpkg.com"
+  ],
+  "summary": {
+    "downloaded": 80,
+    "failed": 0,
+    "skipped_external": 0,
+    "skipped_provider_assets": 0,
+    "skipped_other": 3
+  },
+  "downloaded": [
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94d8f_Logo%20Container.svg",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94d8f_Logo%20Container.svg",
+      "bytes": 42014
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94d90_Satoshi-Variable.woff2",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94d90_Satoshi-Variable.woff2",
+      "bytes": 42588
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94d97_Group%20207275068.svg",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94d97_Group%20207275068.svg",
+      "bytes": 368
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94da8_1.json",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94da8_1.json",
+      "bytes": 35210
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94da9_2.json",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94da9_2.json",
+      "bytes": 15273
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94dac_prel.json",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94dac_prel.json",
+      "bytes": 15931
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94dad_Dashboard.lottie",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94dad_Dashboard.lottie",
+      "bytes": 858566
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94db1_lep-p-1600.webp",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94db1_lep-p-1600.webp",
+      "bytes": 49664
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94db1_lep-p-500.webp",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94db1_lep-p-500.webp",
+      "bytes": 7112
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94db3_Arrow%20Icon.svg",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94db3_Arrow%20Icon.svg",
+      "bytes": 356
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94db4_Icon%20logo.svg",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94db4_Icon%20logo.svg",
+      "bytes": 708
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94dc4_arrow-left-02-round.svg",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94dc4_arrow-left-02-round.svg",
+      "bytes": 383
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94dc5_Product%20Icon.svg",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94dc5_Product%20Icon.svg",
+      "bytes": 1545
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94dc6_4b4f713eb9a8932b22a99f6fc0ddd8e9-p-1600.webp",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94dc6_4b4f713eb9a8932b22a99f6fc0ddd8e9-p-1600.webp",
+      "bytes": 36602
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94dc6_4b4f713eb9a8932b22a99f6fc0ddd8e9-p-500.webp",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94dc6_4b4f713eb9a8932b22a99f6fc0ddd8e9-p-500.webp",
+      "bytes": 7150
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94dc8_p.svg",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94dc8_p.svg",
+      "bytes": 10648
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94dca_c-bg-3.svg",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94dca_c-bg-3.svg",
+      "bytes": 942
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94dcb_c-bg.svg",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94dcb_c-bg.svg",
+      "bytes": 951
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94dcc_c-bg-1.svg",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94dcc_c-bg-1.svg",
+      "bytes": 930
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94dcf_Ellipse%208535.svg",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94dcf_Ellipse%208535.svg",
+      "bytes": 162
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94dd1_bg.svg",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94dd1_bg.svg",
+      "bytes": 129427
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94dd2_Icon.svg",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94dd2_Icon.svg",
+      "bytes": 711
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94dd3_11.svg",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94dd3_11.svg",
+      "bytes": 1267
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94dd4_22.svg",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94dd4_22.svg",
+      "bytes": 1014
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94de7_33.svg",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94de7_33.svg",
+      "bytes": 940
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94de8_44.svg",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94de8_44.svg",
+      "bytes": 1294
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94de9_about%20us%20animaiton.lottie",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94de9_about%20us%20animaiton.lottie",
+      "bytes": 20872
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94dea_Chart.svg",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94dea_Chart.svg",
+      "bytes": 26596
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94deb_3-Icon.svg",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94deb_3-Icon.svg",
+      "bytes": 4458
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94ded_img-4%201.svg",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94ded_img-4%201.svg",
+      "bytes": 13165
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94dee_d-icon.svg",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94dee_d-icon.svg",
+      "bytes": 818
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94def_Check%20Icon.svg",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94def_Check%20Icon.svg",
+      "bytes": 638
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94df0_Price%20Icon.png",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94df0_Price%20Icon.png",
+      "bytes": 666
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94df1_cup%20Icon.svg",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94df1_cup%20Icon.svg",
+      "bytes": 3572
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94df6_prove-ic.svg",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94df6_prove-ic.svg",
+      "bytes": 3825
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94df7_User%20Icon.svg",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94df7_User%20Icon.svg",
+      "bytes": 1220
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94df8_Lock%20Icon.svg",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94df8_Lock%20Icon.svg",
+      "bytes": 2438
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94df9_Security%20Icon.svg",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94df9_Security%20Icon.svg",
+      "bytes": 4221
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94dfb_perf-p-1600.webp",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94dfb_perf-p-1600.webp",
+      "bytes": 65058
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94dfb_perf-p-500.webp",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94dfb_perf-p-500.webp",
+      "bytes": 10168
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94e03_Arrow%20Icon.svg",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94e03_Arrow%20Icon.svg",
+      "bytes": 375
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94e08_Central%20Card.svg",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94e08_Central%20Card.svg",
+      "bytes": 29577
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94e10_67b494a73d2f4be34ddde300_left.svg",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94e10_67b494a73d2f4be34ddde300_left.svg",
+      "bytes": 2002
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94e16_center.svg",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94e16_center.svg",
+      "bytes": 16297
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94e25_6534.svg",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94e25_6534.svg",
+      "bytes": 314
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94e26_Price%20Icon-h.svg",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94e26_Price%20Icon-h.svg",
+      "bytes": 731
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94e28_44.svg",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94e28_44.svg",
+      "bytes": 870
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94e29_6453.svg",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94e29_6453.svg",
+      "bytes": 3366
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94e2a_data.json",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94e2a_data.json",
+      "bytes": 17645
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94e2b_data.json",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94e2b_data.json",
+      "bytes": 16981
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94e2c_3.json",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94e2c_3.json",
+      "bytes": 65810
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94e2d_Color%2520(1)-p-1600.webp",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94e2d_Color%2520(1)-p-1600.webp",
+      "bytes": 67434
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94e2d_Color%2520(1)-p-500.webp",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94e2d_Color%2520(1)-p-500.webp",
+      "bytes": 10484
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94e2e_Group%202072750779.webp",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94e2e_Group%202072750779.webp",
+      "bytes": 12384
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/67e1ae71dd64cd85dbd94e2f_Mockup%202.webp",
+      "path": "67e1ae71dd64cd85dbd94d4c\\67e1ae71dd64cd85dbd94e2f_Mockup%202.webp",
+      "bytes": 21306
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/css/timeless-terminal.webflow.shared.css",
+      "path": "67e1ae71dd64cd85dbd94d4c\\css\\timeless-terminal.webflow.shared.css",
+      "bytes": 149323
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/js/webflow.ae19a44a.4a2528e268fd19c9.js",
+      "path": "67e1ae71dd64cd85dbd94d4c\\js\\webflow.ae19a44a.4a2528e268fd19c9.js",
+      "bytes": 17237
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/js/webflow.schunk.36b8fb49256177c8.js",
+      "path": "67e1ae71dd64cd85dbd94d4c\\js\\webflow.schunk.36b8fb49256177c8.js",
+      "bytes": 41429
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/js/webflow.schunk.42c4adac4a72836c.js",
+      "path": "67e1ae71dd64cd85dbd94d4c\\js\\webflow.schunk.42c4adac4a72836c.js",
+      "bytes": 267543
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d4c/js/webflow.schunk.82f44582d86d1ea9.js",
+      "path": "67e1ae71dd64cd85dbd94d4c\\js\\webflow.schunk.82f44582d86d1ea9.js",
+      "bytes": 325156
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d5e/67e1ae71dd64cd85dbd94d63_b4b475f58ccf7617b86e2d82ece01d7f-p-1600.webp",
+      "path": "67e1ae71dd64cd85dbd94d5e\\67e1ae71dd64cd85dbd94d63_b4b475f58ccf7617b86e2d82ece01d7f-p-1600.webp",
+      "bytes": 34202
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d5e/67e1ae71dd64cd85dbd94d63_b4b475f58ccf7617b86e2d82ece01d7f-p-500.webp",
+      "path": "67e1ae71dd64cd85dbd94d5e\\67e1ae71dd64cd85dbd94d63_b4b475f58ccf7617b86e2d82ece01d7f-p-500.webp",
+      "bytes": 8048
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d5e/67e1ae71dd64cd85dbd94d64_2065624e11244f89a86caee425e9befd-p-1600.webp",
+      "path": "67e1ae71dd64cd85dbd94d5e\\67e1ae71dd64cd85dbd94d64_2065624e11244f89a86caee425e9befd-p-1600.webp",
+      "bytes": 88338
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d5e/67e1ae71dd64cd85dbd94d65_e6aecd0fb2b8f7476a70de7861e2b3dd-p-1600.webp",
+      "path": "67e1ae71dd64cd85dbd94d5e\\67e1ae71dd64cd85dbd94d65_e6aecd0fb2b8f7476a70de7861e2b3dd-p-1600.webp",
+      "bytes": 40368
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e1ae71dd64cd85dbd94d5e/67e1ae71dd64cd85dbd94d66_2fdab383580bf5c65dbe30fb284a16d1-p-1600.webp",
+      "path": "67e1ae71dd64cd85dbd94d5e\\67e1ae71dd64cd85dbd94d66_2fdab383580bf5c65dbe30fb284a16d1-p-1600.webp",
+      "bytes": 81260
+    },
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js",
+      "path": "ajax\\libs\\gsap\\3.11.3\\ScrollTrigger.min.js",
+      "bytes": 40115
+    },
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js",
+      "path": "ajax\\libs\\gsap\\3.11.3\\gsap.min.js",
+      "bytes": 71017
+    },
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js",
+      "path": "ajax\\libs\\gsap\\3.11.4\\gsap.min.js",
+      "bytes": 71157
+    },
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js",
+      "path": "ajax\\libs\\jquery\\2.1.3\\jquery.min.js",
+      "bytes": 84355
+    },
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js",
+      "path": "ajax\\libs\\waypoints\\2.0.3\\waypoints.min.js",
+      "bytes": 8044
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.23/bundled/lenis.min.js",
+      "path": "gh\\studio-freight\\lenis@1.0.23\\bundled\\lenis.min.js",
+      "bytes": 12197
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/timothydesign/script/split-type.js",
+      "path": "gh\\timothydesign\\script\\split-type.js",
+      "bytes": 11804
+    },
+    {
+      "url": "https://d3e54v103j8qbb.cloudfront.net/img/webflow-badge-icon-d2.89e12c322e.svg",
+      "path": "img\\webflow-badge-icon-d2.89e12c322e.svg",
+      "bytes": 421
+    },
+    {
+      "url": "https://d3e54v103j8qbb.cloudfront.net/img/webflow-badge-text-d2.c82cec3b78.svg",
+      "path": "img\\webflow-badge-text-d2.c82cec3b78.svg",
+      "bytes": 9912
+    },
+    {
+      "url": "https://timelessterminal.com/",
+      "path": "index.html",
+      "bytes": 86488
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/jquery.counterup/1.0/jquery.counterup.min.js",
+      "path": "jquery.counterup\\1.0\\jquery.counterup.min.js",
+      "bytes": 1071
+    },
+    {
+      "url": "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=67e1ae71dd64cd85dbd94d4c",
+      "path": "js\\jquery-3.5.1.min.dc5e7f18c8.js",
+      "bytes": 89476
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css",
+      "path": "npm\\swiper@11\\swiper-bundle.min.css",
+      "bytes": 18454
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js",
+      "path": "npm\\swiper@11\\swiper-bundle.min.js",
+      "bytes": 154597
+    },
+    {
+      "url": "https://unpkg.com/split-type@0.3.4/umd/index.min.js",
+      "path": "split-type@0.3.4\\umd\\index.min.js",
+      "bytes": 11804
+    }
+  ],
+  "failed": [],
+  "skipped_external": [],
+  "skipped_provider_assets": [],
+  "skipped_other": [
+    {
+      "url": "blob:https://timelessterminal.com/a5f3fab2-49f2-4957-b7e2-f920e7bffd0b",
+      "reason": "non-asset request type"
+    },
+    {
+      "url": "blob:https://timelessterminal.com/c572b11b-faaa-4611-91c7-b7a42d82f075",
+      "reason": "non-asset request type"
+    },
+    {
+      "url": "https://unpkg.com/split-type",
+      "reason": "non-2xx at capture time (302)"
+    }
+  ]
+}
